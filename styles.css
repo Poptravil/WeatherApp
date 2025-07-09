@@ -11,13 +11,13 @@
     display: flex;
     justify-content: center;
     padding: 50px;
-    background-color: #eef2f3;
+    background-color: #ffffff;
     
   }
   
   /* Weather card */
   .weather-card {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.463);
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     padding: 30px 40px;
@@ -35,26 +35,30 @@
   }
   
   .temperature {
-    font-size: 3rem;
+    font-family: times new roman;
+    font-size: 5rem;
     color: #333;
     margin: 10px 0;
   }
   
   .condition {
     font-size: 1.2rem;
-    color: #666;
+    color: #000000;
   }
   
   /* Conditional styling (like weather types) */
   .sunny {
     border-top: 5px solid #f9d71c;
+    background: #f9d71c;
   }
   
   .rainy {
     border-top: 5px solid #00aaff;
+    background-color: #04aafd;
   }
   
   .cloudy {
-    border-top: 5px solid #b0bec5;
+    border-top: 5px solid #04aafd;
+    background-color: #04aafd;
   }
   
